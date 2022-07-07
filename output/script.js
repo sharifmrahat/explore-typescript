@@ -15,3 +15,11 @@ a = 4;
 let arry = [];
 arry.push("something", 56);
 // arry.push({}) : here we can not push object in this array because it is string or number type array. this is same for an object schema.
+// example:
+let obj;
+obj = {
+    name: "something",
+    age: 25,
+    student: true,
+    other: [],
+};
