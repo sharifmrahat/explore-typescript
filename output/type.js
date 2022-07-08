@@ -2,6 +2,7 @@
 //Type in TypeScript:
 // 1. Explicit Type
 // 2. Union Type
+// 3. Dynamic Type or any type
 // 1. Explicit Type
 //Directly declare a single type like string, number, boolean, array, object.
 //2: UNION Type
@@ -24,3 +25,10 @@ obj = {
 //INTERESTING: In JavaScript array is an object:
 let abc;
 abc = ["a", 4, true]; //here we declared abc as object but assign an array but showing no error because in JavaScript array is one kind of object.
+// 3: Dynamic Type or any type
+let book;
+book = "something";
+book = 45;
+book = [];
+book = {};
+//any type is used for rare case. no need to use Typescript if we use any type.
