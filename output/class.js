@@ -1,12 +1,20 @@
 "use strict";
 class Employee {
-    constructor(n, a, p) {
-        this.name = n;
-        this.age = a;
-        this.position = p;
+    constructor(name, age, position) {
+        this.name = name;
+        this.age = age;
+        this.position = position;
     }
     Task() {
         console.log(`The employee ${this.name} for the position of ${this.position}`);
     }
 }
 const rahim = new Employee("Rahim Uddin", 45, "Full Stack Developer");
+const employees = [];
+employees.push(rahim);
+//ACCESS Modifier
+// 1. Public 2. Private 3. Readonly
+// By default access modifier is public.
+// rahim.name = 'Karim Uddin' // we can not access the name as it is private,
+rahim.age = 34; // we can access the age as it is public
+//Readonly access modifier can be access but can not be change or modify.
