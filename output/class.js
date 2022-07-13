@@ -9,9 +9,9 @@ class Employee {
         console.log(`The employee ${this.name} for the position of ${this.position}`);
     }
 }
-const rahim = new Employee("Rahim Uddin", 45, "Full Stack Developer");
-const employees = [];
-employees.push(rahim);
+// const rahim = new Employee("Rahim Uddin", 45, "Full Stack Developer");
+// const employees: Employee[] = [];
+// employees.push(rahim);
 //ACCESS Modifier
 // 1. Public 2. Private 3. Readonly
 // By default access modifier is public.

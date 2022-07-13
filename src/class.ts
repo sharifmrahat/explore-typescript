@@ -12,11 +12,11 @@ class Employee {
   }
 }
 
-const rahim = new Employee("Rahim Uddin", 45, "Full Stack Developer");
+// const rahim = new Employee("Rahim Uddin", 45, "Full Stack Developer");
 
-const employees: Employee[] = [];
+// const employees: Employee[] = [];
 
-employees.push(rahim);
+// employees.push(rahim);
 
 //ACCESS Modifier
 // 1. Public 2. Private 3. Readonly
