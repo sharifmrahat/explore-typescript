@@ -1,3 +1,9 @@
+// export class Employee {
+//   constructor(
+//     private name: string,
+//     public age: number,
+//     readonly position: string
+//   ) {}
 export class Employee {
     constructor(name, age, position) {
         this.name = name;
